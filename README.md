@@ -1,27 +1,26 @@
 # DB-check-utility
-RMS database health check CLI utility
+CLI Health check utility for Risk Management System database 
 
 ## Overview
 
-RMS Database Check Utility is a command-line tool designed to validate database consistency, integrity, and performance. It automates routine database health checks, helping developers and database administrators identify and resolve potential issues before they affect application performance.
+RMS Database Check Utility is a command-line tool designed to validate database consistency and integrity. It automates routine database health checks, helping developers and database administrators identify and resolve potential issues before they affect application performance. <br>
+This utility fast-tracks End-Of-Day procedures.
 
-Features
+## Features
 
-* Schema Validation: Ensures database schema matches expected structure.
+* Ensures database schema matches expected structure.
 
-* Data Consistency Checks: Detects missing or duplicate records.
+* Detects missing or duplicate records.
 
 * Index Analysis: Identifies missing or inefficient indexes.
 
-* Query Performance Monitoring: Detects slow queries affecting database performance.
+* Generates detailed logs and reports for further analysis.
 
-* Automated Reports: Generates detailed logs and reports for further analysis.
+* Compares trade records across multiple databases to verify consistency.
 
-* Match Trade Data: Compares trade records across multiple databases to verify consistency.
+* Validates trade quantities and mark-to-market values.
 
-* MTM and Quantity Matching: Validates trade quantities and mark-to-market values.
-
-* User-wise Matching: Compares user-wise financial records for discrepancies.
+* Compares user-wise records for discrepancies.
 ### Screenshots of outputs
 1) Entering date for which to match trades
 ![Date input](outputs_screenshots/date.PNG)
@@ -41,5 +40,3 @@ Features
 8) Matching Mark to Market (MTM) for a userid (omitted userid) - When it is unmatched
 ![Count trades](outputs_screenshots/mtm-userid-unmatched-1.PNG)
 ![Count trades](outputs_screenshots/mtm-userid-unmatched-2.PNG)
-
-
